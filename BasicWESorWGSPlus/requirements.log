@@ -1,0 +1,19 @@
+[picard]
+download	wget https://codeload.github.com/broadinstitute/picard/legacy.tar.gz/master
+local_path	/opt/NfsDir/BioDir/picard-tools-1.119/picard.jar	
+version	
+
+[bwa]
+download	wget https://codeload.github.com/broadinstitute/picard/legacy.tar.gz/master
+local_path	/opt/NfsDir/BioDir/bwa/bwa 
+version
+
+[samtools]
+download	wget https://codeload.github.com/broadinstitute/picard/legacy.tar.gz/master
+local_path	/opt/NfsDir/BioDir/samtools/samtools	
+version
+
+[reference]
+download	
+local_path	/opt/NfsDir/PublicDir/reference/ucsc.hg19.fasta	
+version	hg19
